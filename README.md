@@ -24,7 +24,7 @@ This plugin simplifies internal linking within your WordPress content.  It autom
 
 ## Installation
 
-1.  Upload the `auto-tag-links` folder to the `/wp-content/plugins/` directory.
+1.  Upload the `wp-auto-tag-links` folder to the `/wp-content/plugins/` directory.
 2.  Activate the "Auto Tag Links for Posts" plugin through the 'Plugins' menu in WordPress.
 
 ## Usage
