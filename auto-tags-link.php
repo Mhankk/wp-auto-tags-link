@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /*
 Plugin Name: Auto Tag Links for Posts
 Description: Menambahkan link tag secara otomatis hanya pada satu instance per tag di postingan (baik default editor maupun Elementor). Jika link sudah ada, instance selanjutnya tidak akan di-link.
-Version: 1.7
+Version: 1.8
 Author: Hakim Winahyu
 */
 
@@ -58,7 +58,7 @@ function auto_link_tags_dom_single_occurrence($content) {
                 // Ganti hanya 1 instance saja
                 $newText = preg_replace(
                     '/\b(' . preg_quote($tag_name, '/') . ')\b/i',
-                    '<a href="' . $tag_link . '">$1</a>',
+                    '<a href="' . $tag_link . '" style="text-decoration: none;">$1</a>',
                     $originalText,
                     1
                 );
