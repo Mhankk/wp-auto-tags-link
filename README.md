@@ -54,8 +54,8 @@ Once activated, the plugin automatically links tags in your posts.  No further c
 
 ## Contributing
 
-Contributions are welcome!  Please submit pull requests on [your repository, if you have one].  If you don't have a repository, consider creating one on GitHub or GitLab.
+Contributions are welcome!  Please submit pull requests on [wp-auto-tags-link](https://github.com/Mhankk/wp-auto-tags-link/).  If you don't have a repository, consider creating one on GitHub or GitLab.
 
 ## Support
 
-For support or feature requests, please visit [your support page, if you have one. If not, remove this section or link to a contact form on your website].
+Donate me on [donation](https://sylva.my.id/donate/).
