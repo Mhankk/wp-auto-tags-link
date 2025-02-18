@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+    exit; // Exit if accessed directly.
+}
+
 /*
 Plugin Name: Auto Tag Links for Posts
 Description: Menambahkan link tag secara otomatis hanya pada satu instance per tag di postingan (baik default editor maupun Elementor). Jika link sudah ada, instance selanjutnya tidak akan di-link.
